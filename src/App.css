@@ -1,0 +1,5 @@
+body {
+  border: 1.3rem solid var(--primaryColor);
+
+  border-top: none;
+}

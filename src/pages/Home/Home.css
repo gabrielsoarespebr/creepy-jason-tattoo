@@ -1,0 +1,21 @@
+#disclaimer-container {
+  background-color: var(--primaryColor);
+}
+
+#disclaimer-text {
+  animation: disclaimer 40s linear infinite;
+
+  font-size: 0.8rem;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+}
+
+@keyframes disclaimer {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
