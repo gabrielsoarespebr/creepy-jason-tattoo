@@ -1,0 +1,33 @@
+#about {
+  background-color: var(--primaryColor);
+  color: var(--quartiaryColor);
+
+  font-weight: bold;
+
+  padding: 5vh;
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+
+    li {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      img {
+        width: 10vw;
+
+        filter: drop-shadow(0 0 2px black);
+      }
+
+      p {
+        font-size: 120%;
+
+        filter: drop-shadow(0 0 2px black);
+      }
+    }
+  }
+}

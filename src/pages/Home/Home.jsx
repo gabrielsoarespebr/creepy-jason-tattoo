@@ -1,6 +1,7 @@
 import "./Home.css";
 
 import { Banner } from "./Banner";
+import { About } from "./About";
 
 export const Home = () => {
   return (
@@ -9,6 +10,7 @@ export const Home = () => {
         <p id="disclaimer-text">disclaimer: unofficial site &#9733; fan-made</p>
       </div>
       <Banner />
+      <About />
     </>
   );
 };
